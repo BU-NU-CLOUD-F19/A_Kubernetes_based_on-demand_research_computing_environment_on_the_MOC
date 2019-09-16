@@ -19,7 +19,7 @@
 ### Solution Concept
 The components which make up Sid can be viewed as three sections.  The front end is where the user interacts with the software and tells it the job they would like to ruin.  The middleware includes the components that interact with and control the Kubernetes. This section tells the backend how it should perform its computations and what the user has requested. The back end is where all of the actual computation happens on the MOC. This section also includes kubernetes for controlling and managing container swarms.
 
-![Alt text](front_middle_back.png)
+![Alt text](https://github.com/BU-NU-CLOUD-F19/A_Kubernetes_based_on-demand_research_computing_environment_on_the_MOC/blob/master/images/front_middle_back.png)
 
 This diagram shows at a very high level how a user interacts with Sid by requesting that Sid create a new job, and how Sid hands off the newly created job to the user to directly interact with
 
@@ -36,10 +36,10 @@ This diagram shows at a very high level how a user interacts with Sid by request
 - Logging
 
 ##### Back End 
-![Alt text](layers.png)
+![Alt text](https://github.com/BU-NU-CLOUD-F19/A_Kubernetes_based_on-demand_research_computing_environment_on_the_MOC/blob/master/images/layers.png)
 
 ### System Architecture
-![Alt text](diagram.png)
+![Alt text](https://github.com/BU-NU-CLOUD-F19/A_Kubernetes_based_on-demand_research_computing_environment_on_the_MOC/blob/master/images/diagram.png)
 
 ### Acceptance criteria
 The success or failure of this project will be determined by whether or not we are able to successfully move the backend computations for this tool to the MOC and maintain the same functionality that the tool currently has. Some stretch goals include automating the setup of this tool so that other institutions can set up similar frameworks with minimal work.
