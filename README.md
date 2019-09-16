@@ -50,20 +50,22 @@ The success or failure of this project will be determined by whether or not we a
   - MOC: Run a simple data processing computation on the MOC
   - Kubernetes: Manipulate one or more containers using Kubernetes
   - Containers: Create a container and run a program that has non-standard dependencies
- 
-*Release 2 (Week 5)*
+  
+ *Release 2 (Week 5)*
+- Start creating teraform scripts for the various technologies
+
+*Release 3 (Week 7)*
 - Be able to use Kubernetes to create a container, and a working environment on MOC 
     
-*Release 3 (Week 7)*
+*Release 4 (Week 9)*
 - Launch a sid container on the MOC and do some basic computation
     
-*Release 4 (Week 9)*
+*Release 5 (Week 11)*
 - Write test cases for testing the success or failure of our integration between the frontend and backend
     
-*Release 5 (Week 11)*
+*Release 6 (Week 13)*
 - Integrate the backend with the front end that has already been developed by the sid team.
     
-*Release 6 (Week 13)*
-- Automate the setup of the cloud environment with Terraform
+
 
 
