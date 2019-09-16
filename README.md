@@ -51,7 +51,7 @@ The success or failure of this project will be determined by whether or not we a
   - Kubernetes: Manipulate one or more containers using Kubernetes
   - Containers: Create a container and run a program that has non-standard dependencies
  
-Release 2 (Week 5)*
+*Release 2 (Week 5)*
 - Be able to use Kubernetes to create a container, and a working environment on MOC 
     
 *Release 3 (Week 7)*
