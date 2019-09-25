@@ -7,6 +7,11 @@ Currently, teams at the HMDC are actively developing Sid and preparing it for la
 
 Our team will work closely with the HMDC to make this port possible. We will begin by installing Sid's node.js-based frontend and middleware on our local machines (for development) and on virtual machines in the MOC (for staging); in production, these components will run on Heroku. We will then set up a [minishift cluster](https://www.okd.io/minishift/) in our development environment and attempt to provision it with the objects (e.g., ServiceAccounts, Roles, etc.) normally used with Kubernetes on Amazon EKS. As we encounter incompatibilities preventing unmodified use of the Kubernetes objects on OpenShift (e.g., due to [incompatibility between OpenShift Routes and Kubernetes Ingress](https://blog.openshift.com/kubernetes-ingress-vs-openshift-route/)), we will modify or remake the objects to be compatible, or work with the HMDC to develop a workaround in the middleware. Each of these compatibility upgrade tasks will be assigned to 1-2 team members. As Sid and OpenShift are both complex platforms with several moving pieces, each team member will also spend significant time researching unfamiliar technologies and discussing with the HMDC team. Once we are able to successfully deploy Sid-on-OpenShift in both our development and staging environments, we will begin rollout on the MOC's production OpenShift cluster. 
 
+### Open Questions & Risks
+At the moment, our only open question is if there's any scenario where Sid's backend *needs* to be coupled to the infrastructure underlying the chosen orchestration platform (Kubernetes or OpenShift) that would need to be provisioned in some custom fashion with a tool like Ansible or Terraform. We plan to answer this question in our next meeting with our mentor.
+
+Our main risk is that there is some fundamental incompatibility between Sid and OpenShift that would prevent our port from succeeding. In that unfortunate scenario, our backup plan is to create an automated way to deploy Sid on a "pure" Kubernetes cluster running on MOC virtual machines.
+
 ### Users/Personas Of The Project
 - Although Sid's end users will primarily be scientists and researchers wishing to utilize cloud computing environments, as a backend project, our primary users are the administrators and developers of Sid.
 
