@@ -52,7 +52,7 @@ This diagram shows at a very high level how a user interacts with Sid by request
 The success or failure of this project will be determined by whether or not we are able to successfully port Sid's current Kubernetes-based deployment over to OpenShift and deploy it on the MOC OpenShift cluster. In the event that this isn't possible, we plan to create an automated way to deploy Sid on a "pure" Kubernetes cluster running on MOC virtual machines.
 
 ### Release Planning
-*Release 1 (Week 4)*
+*Release 1 (Week 4)* - [Demo Slides](https://docs.google.com/presentation/d/1tONxR0E2NzLYkqCQG6fzuDhMQk2QpP-2fmViq-Ou81M/edit?usp=sharing)
 - Stand up local development and MOC-staging environments containing Sid frontend, Sid middleware, and a clean install of minishift
 - Begin attempted deployment of Sid backend on minishift development environments
   
