@@ -56,7 +56,7 @@ The success or failure of this project will be determined by whether or not we a
 - Stand up local development and MOC-staging environments containing Sid frontend, Sid middleware, and a clean install of minishift
 - Begin attempted deployment of Sid backend on minishift development environments
   
- *Release 2 (Week 5)*
+ *Release 2 (Week 5)* - [Demo Slides](https://docs.google.com/presentation/d/1q-JB5S5ALB6MFz91jiJ9DxOGtkPKCC74TCi_kamO8As/edit?usp=sharing)
 - Identify and document any incompatibilities preventing proper operation of Sid backend on OpenShift
 - Begin compatibility upgrades
 
