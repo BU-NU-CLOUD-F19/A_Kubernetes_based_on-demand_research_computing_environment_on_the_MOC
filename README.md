@@ -60,7 +60,7 @@ The success or failure of this project will be determined by whether or not we a
 - Identify and document any incompatibilities preventing proper operation of Sid backend on OpenShift
 - Begin compatibility upgrades
 
-*Release 3 (Week 7)*
+*Release 3 (Week 7)* - [Demo Slides](https://docs.google.com/presentation/d/125MDdIVHqzH7i-qDa3nRinpl7wkIrtO5x-3KIZQwHZE/edit?usp=sharing)
 - Finish addressing incompatibilites that we can handle within OpenShift
 - Begin working with HMDC to workaround any remaining incompatibilities in middleware
 - Begin work with MOC staff to prepare for rollout on MOC production OpenShift cluster
