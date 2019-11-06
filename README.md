@@ -67,7 +67,7 @@ The success or failure of this project will be determined by whether or not we a
 - Adapt the current tutorial for setting up a local environment to use minishift
 - Manually deploy sid in a pre production environment on the MOC
     
-*Release 4 (Week 9)* [Demo Slides] (https://docs.google.com/presentation/d/12X2BaJ6Y1ji5peVIqBn_5yY8VPkvLIsUa0Fo2TTu1k4/edit?usp=sharing)
+*Release 4 (Week 9)* - [Demo Slides](https://docs.google.com/presentation/d/12X2BaJ6Y1ji5peVIqBn_5yY8VPkvLIsUa0Fo2TTu1k4/edit?usp=sharing)
 - Decided to switch to using vanilla k8s over openshift due to incompatibilities
 - Work on setting up a new heroku instance for our MOC cluster
 - Try to run sid docker images and if the cluster is up put them onto the cluster
