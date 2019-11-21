@@ -72,7 +72,7 @@ The success or failure of this project will be determined by whether or not we a
 - Work on setting up a new heroku instance for our MOC cluster
 - Try to run sid docker images and if the cluster is up put them onto the cluster
     
-*Release 5 (Week 11)*
+*Release 5 (Week 11)* [Demo Slides](https://docs.google.com/presentation/d/1Z7DAFLzNLEvslrMJsJdhxW_3d9bunOt3AuBDaCUMJU8/edit?usp=sharing)
 - Rollout Sid backend on MOC production OpenShift
 - Write end-to-end test cases for testing integration success
     
