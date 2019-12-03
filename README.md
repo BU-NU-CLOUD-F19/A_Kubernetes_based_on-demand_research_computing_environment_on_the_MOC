@@ -53,30 +53,44 @@ The success or failure of this project will be determined by whether or not we a
 
 ### Release Planning
 *Release 1 (Week 4)* - [Demo Slides](https://docs.google.com/presentation/d/1tONxR0E2NzLYkqCQG6fzuDhMQk2QpP-2fmViq-Ou81M/edit?usp=sharing)
-- Stand up local development and MOC-staging environments containing Sid frontend, Sid middleware, and a clean install of minishift
-- Begin attempted deployment of Sid backend on minishift development environments
+ - Revise Project Description.
+ - Follow tutorial given by Sid team to download mongo, nginx, virtual machines and start running some kubernetes containers.
+ - Request OpenShift access on the MOC.
+ - Install Minishift
+ - Complete OpenShift tutorial using MiniShift.
   
- *Release 2 (Week 5)* - [Demo Slides](https://docs.google.com/presentation/d/1q-JB5S5ALB6MFz91jiJ9DxOGtkPKCC74TCi_kamO8As/edit?usp=sharing)
-- Identify and document any incompatibilities preventing proper operation of Sid backend on OpenShift
-- Solve permissions issue for adding roles on OpenShift
-- Solve priority class issues in MiniShift
+ *Release 2 (Week 6)* - [Demo Slides](https://docs.google.com/presentation/d/1q-JB5S5ALB6MFz91jiJ9DxOGtkPKCC74TCi_kamO8As/edit?usp=sharing)
+- Figure out how to add priority classes to MiniShift.
+- When adapting Sid development environment from Kubernetes to OpenShift, we need to find an alternative to minishift of the    minikube’s ‘NGINX ingress controller add-on.
+- Solve permission issues for add-role step in the original sid tutorial.
 
-*Release 3 (Week 7)* - [Demo Slides](https://docs.google.com/presentation/d/125MDdIVHqzH7i-qDa3nRinpl7wkIrtO5x-3KIZQwHZE/edit?usp=sharing)
+
+*Release 3 (Week 8)* - [Demo Slides](https://docs.google.com/presentation/d/125MDdIVHqzH7i-qDa3nRinpl7wkIrtO5x-3KIZQwHZE/edit?usp=sharing)
 - Finish addressing incompatibilites that we can handle within OpenShift
 - Begin working with HMDC to workaround any remaining incompatibilities in middleware
 - Adapt the current tutorial for setting up a local environment to use minishift
 - Manually deploy sid in a pre production environment on the MOC
     
-*Release 4 (Week 9)* - [Demo Slides](https://docs.google.com/presentation/d/12X2BaJ6Y1ji5peVIqBn_5yY8VPkvLIsUa0Fo2TTu1k4/edit?usp=sharing)
+*Release 4 (Week 10)* - [Demo Slides](https://docs.google.com/presentation/d/12X2BaJ6Y1ji5peVIqBn_5yY8VPkvLIsUa0Fo2TTu1k4/edit?usp=sharing)
 - Decided to switch to using vanilla k8s over openshift due to incompatibilities
 - Work on setting up a new heroku instance for our MOC cluster
 - Try to run sid docker images and if the cluster is up put them onto the cluster
     
-*Release 5 (Week 11)* [Demo Slides](https://docs.google.com/presentation/d/1Z7DAFLzNLEvslrMJsJdhxW_3d9bunOt3AuBDaCUMJU8/edit?usp=sharing)
-- Rollout Sid backend on MOC production OpenShift
-- Write end-to-end test cases for testing integration success
+*Release 5 (Week 12)* [Demo Slides](https://docs.google.com/presentation/d/1Z7DAFLzNLEvslrMJsJdhxW_3d9bunOt3AuBDaCUMJU8/edit?usp=sharing)
+- Request more Floating IPs from the MOC team.
+- Roll vanilla Kubernetes out on MOC virtual machines.
+- Create a new ‘Sid Middleware’ instance on Heroku
+- Test run Reddis on our MOC openstack instance.
+- Test express web-server on MOC.
+- Fix networking/load-balancing experiencing issues. Pods that expose ports might not be publicly accessible.
+- Migrate Mongo from Heroku to a local machine and put it in a container using Kubernetes.
+- Prepare entire Kubernetes cluster for Sid usage.
+- Install Docker Daemon on a new MOC VM to enable the use of Reddis, Mongo and Express webserver.
+
     
 *Release 6 (Week 13)*
 - Finalize documentation
+- Finish writing terraform scripts
+- Integrate our backend and middleware
 - Complete switchover from using staging instances of Sid's frontend and middleware to production instances
 - Handoff to HMDC team
